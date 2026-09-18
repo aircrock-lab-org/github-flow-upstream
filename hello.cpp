@@ -6,6 +6,7 @@ void printGreeting(const std::string& message) {
 }
 
 int main() {
-    printGreeting("Hello");
+    const std::string greetingMessage = "Hello";
+    printGreeting(greetingMessage);
     return 0;
 }
