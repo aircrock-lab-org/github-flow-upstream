@@ -1,5 +1,5 @@
 #include <iostream>
 
-void taskOne() {
+void printTaskOne() {
     std::cout << "Task 1" << '\n';
 }
