@@ -1,6 +1,11 @@
 #include <iostream>
+#include <string>
+
+void printGreeting(const std::string& message) {
+    std::cout << message << std::endl;
+}
 
 int main() {
-    std::cout << "Hello" << std::endl;
+    printGreeting("Hello");
     return 0;
 }
