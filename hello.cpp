@@ -2,7 +2,7 @@
 #include <string>
 
 void printGreeting(const std::string& message) {
-    std::cout << message << std::endl;
+    std::cout << message << '\n';
 }
 
 int main() {
